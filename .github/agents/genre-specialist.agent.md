@@ -1,4 +1,9 @@
-# Genre Specialist Agent
+---
+description: Genre Specialist manages genre conventions and tropes
+name: genre-specialist
+---
+
+# genre-specialist instructions
 
 ## Role
 **Genre Specialist** who manages genre conventions and tropes

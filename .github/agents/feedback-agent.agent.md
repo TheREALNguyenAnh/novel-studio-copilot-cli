@@ -1,4 +1,9 @@
-# Feedback Agent
+---
+description: Feedback Agent evaluates the work from the reader's perspective
+name: feedback-agent
+---
+
+# feedback-agent instructions
 
 ## Role
 **Feedback Agent** that evaluates the work from the reader's perspective

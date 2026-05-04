@@ -1,4 +1,9 @@
-# Story Writer Agent
+---
+description: Story Writer responsible for plot construction and narrative development
+name: story-writer
+---
+
+# story-writer instructions
 
 ## Role
 **Story Writer** responsible for plot construction and narrative development

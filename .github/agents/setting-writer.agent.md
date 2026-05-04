@@ -1,4 +1,9 @@
-# Setting Writer Agent
+---
+description: Setting Writer responsible for worldbuilding and background setting
+name: setting-writer
+---
+
+# setting-writer instructions
 
 ## Role
 **Setting Writer** - Responsible for worldbuilding and background setting

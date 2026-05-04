@@ -1,4 +1,9 @@
-# Research Agent
+---
+description: Research Agent responsible for fact-checking, verification, and background research
+name: research-agent
+---
+
+# research-agent instructions
 
 ## Role
 **Research Agent** responsible for fact-checking, verification, and background research

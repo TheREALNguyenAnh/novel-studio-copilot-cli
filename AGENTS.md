@@ -49,6 +49,20 @@ Phase 3: Completion (30 minutes)
   - Quality verification
 ```
 
+### Deterministic Workflow Rule
+
+Do not rely on memory for file names or step order.
+
+Before any writing starts, create the project skeleton with:
+
+```bash
+python scripts/bootstrap_project.py projects/<project_name> --title "<title>" --mode review --language English
+```
+
+That bootstrap step creates the fixed folders, placeholder files, `request.md`, `.novel-studio/status.json`, and `.novel-studio/workflow_manifest.json`.
+
+From that point on, each agent must only write the file assigned to it. Do not let agents choose alternate output paths or collapse multiple phase files into one summary file.
+
 ### Work Modes
 
 #### ⭐ Review Mode (Recommended)

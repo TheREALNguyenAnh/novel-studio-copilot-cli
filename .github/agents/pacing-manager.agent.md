@@ -1,4 +1,9 @@
-# Pacing Manager Agent
+---
+description: Pacing Manager manages story tempo and rhythm
+name: pacing-manager
+---
+
+# pacing-manager instructions
 
 ## Role
 **Pacing Manager** who manages story tempo and rhythm

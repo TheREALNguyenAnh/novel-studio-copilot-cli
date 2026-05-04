@@ -11,6 +11,8 @@
 
 This document defines the novel creation workflow that GitHub Copilot CLI reads and executes directly.
 
+Deterministic rule: the project skeleton must be created first, and every agent writes only its assigned file from `.novel-studio/workflow_manifest.json`. Do not let the model invent alternate filenames or combine planning outputs into a single replacement file.
+
 ---
 
 ### 🎯 Overview
