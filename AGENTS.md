@@ -108,7 +108,7 @@ Examples:
 - "Write me a fantasy adventure"
 - "Write me a sci-fi short story"
 
-→ I'll ask you the necessary details and proceed.
+→ I'll ask for project name, idea summary, mode, and chapter length before proceeding.
 
 ---
 
@@ -118,7 +118,7 @@ Examples:
 Project name: [name]
 Idea: [detailed description]
 Mode: [auto/review/manual]
-Length: [number of chapters, default 3]
+Length: [number of chapters chosen by user]
 ```
 
 Example:
@@ -151,7 +151,13 @@ Let me confirm a few things:
 2️⃣ What should we name the project?
    (English/numbers/underscores only, e.g., first_love, fantasy_001)
 
-3️⃣ Which work mode?
+3️⃣ Please provide a short idea summary.
+  (2-5 sentences; main characters, conflict, and tone)
+
+4️⃣ How long should it be?
+  (Choose chapter count, e.g., 1, 3, 5, or custom)
+
+5️⃣ Which work mode?
    • review (recommended): 5-7 checkpoints, 3-4 hours
    • auto: 3 checkpoints, 2-3 hours
    • manual: 15-20 checkpoints, 4-5 hours
@@ -164,7 +170,7 @@ Let me confirm a few things:
 Project: [project name]
 Content: [idea summary]
 Mode: [selected mode]
-Length: 3 chapters (approx. 10,000 words)
+Length: [user-selected chapter count]
 
 Estimated time: [X-X hours]
 Expected quality: 80-90/100
@@ -276,4 +282,4 @@ The Main Writer will ask your language preference when you start.
 **Novel Studio for Copilot CLI**  
 *"Your story, our creation."*
 
-*v1.0-EN - 13 Specialized Agent System*
+*v1.2-EN - 13 Specialized Agent System*
