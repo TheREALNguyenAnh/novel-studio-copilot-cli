@@ -40,6 +40,11 @@ PHASE3_FILES = [
 
 
 def build_manifest(project_name: str, title: str, mode: str, language: str, chapters: int) -> dict:
+    english_locale_rules = [
+        "Use English-only output unless the user explicitly requests another language.",
+        "Default to a neutral international or user-specified setting for English projects.",
+    ]
+
     workflow_steps = [
         {"id": "phase1.concept", "agent": "main-writer", "input": ["request.md"], "output": "phase1_planning/concept.md"},
         {"id": "phase1.story_structure", "agent": "story-writer", "input": ["phase1_planning/concept.md"], "output": "phase1_planning/story_structure.md"},
@@ -151,6 +156,7 @@ def build_manifest(project_name: str, title: str, mode: str, language: str, chap
         "title": title,
         "mode": mode,
         "language": language,
+        "locale_rules": english_locale_rules if language.lower().startswith("english") else [],
         "created_at": datetime.now().isoformat(),
         "current_step": "phase1.concept",
         "status": "planning",

@@ -199,8 +199,8 @@ Purpose: Background setting for Seoyeon (aspiring librarian)
 - Reservation system: Reserve in app → Pick up at pickup zone
 
 **Sources**:
-- Seoul National University Central Library (2025)
-- Yonsei University Library System White Paper (2024)
+- Major university library system reports
+- Public library policy documents
 
 **Confidence**: ⭐⭐⭐⭐⭐
 
@@ -215,7 +215,7 @@ Purpose: Background setting for Seoyeon (aspiring librarian)
 - Reading program planning
 - Learning space management
 
-**Source**: Korean Library Association (2024)
+**Source**: National library policy documents
 
 **Story Application**:
 Seoyeon's dream = "Running an independent bookstore" is realistic
@@ -280,7 +280,7 @@ Purpose: Realism of setting
 - Average temperature: 10-15°C
 - Cherry blossoms peak: April 5-10
 - Cool mornings/evenings (jacket needed)
-- Source: Korea Meteorological Administration historical data (2020-2025)
+- Source: Historical weather records (2020-2025)
 
 **Mid-Late April**:
 - Average temperature: 15-20°C
@@ -303,7 +303,7 @@ Purpose: Realism of setting
 ❌ "Cherry blossoms in May" (impossible)
 ```
 
-### Example 4: Korean University Student Speech
+### Example 4: University Student Speech
 
 #### Request
 ```
@@ -364,9 +364,9 @@ Minjun (3rd year) vs Seoyeon (2nd year) = 1 year gap
 
 ## References
 
-- **Academic Databases**: Google Scholar, RISS
-- **Public Data**: Korea Meteorological Administration, Statistics Korea
-- **Professional Organizations**: Korean Library Association, Architectural Institute of Korea
+- **Academic Databases**: Google Scholar, institutional repositories
+- **Public Data**: National weather and statistics agencies
+- **Professional Organizations**: Library and architecture associations
 
 ---
 

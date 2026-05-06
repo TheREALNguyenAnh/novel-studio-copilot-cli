@@ -63,6 +63,8 @@ That bootstrap step creates the fixed folders, placeholder files, `request.md`, 
 
 From that point on, each agent must only write the file assigned to it. Do not let agents choose alternate output paths or collapse multiple phase files into one summary file.
 
+English mode is language-only. Unless the user explicitly requests a specific locale, keep names, schools, holidays, class systems, honorifics, and cultural references neutral or user-specified.
+
 ### Work Modes
 
 #### ⭐ Review Mode (Recommended)
@@ -256,7 +258,7 @@ I'll guide you through the process! 😊
 ## 🌐 Language Support
 
 **English** (Default): All agents operate in English by default
-**한국어** (Korean): Korean agents available with `ko-` prefix
+English-only project workflow. No alternate language mode is supported in this workspace.
 
 The Main Writer will ask your language preference when you start.
 
